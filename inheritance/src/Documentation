@@ -1,0 +1,36 @@
+Rectangle class:
+
+	Field:
+		
+		private int width
+		private int height
+		
+	Constructor:
+	
+		Rectangle(): sets both value to zero
+		Rectangle(width,height):sets the value of height and width
+		
+	Methods:
+		
+		public int getWidth():
+		public int getHight():
+		
+		public int getArea(): calculates the area of the rectangle
+		public void printDetails(): prints the details of the rectangle
+		
+-------------------------------------------------------------------------------------------------------
+
+Square class 
+
+	Field:
+		inherits from Rectangle class
+		
+	constructors:
+		// cannot inherit constructors
+		Square():
+		square(side):
+		
+	method:
+		inherits the getArea
+		public void printDetails(): print details is different for square 
+		
